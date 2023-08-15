@@ -78,7 +78,7 @@ ul li {
 }
 .poster2{
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     text-align: left;
     line-height: 1.8rem;
    
@@ -228,6 +228,7 @@ ul li {
 .aboutskills{
     background-image: url(images/glare-iphone-macbook-code_preview_6a3d.jpg);
     background-attachment: fixed;
+    height: 480px;
     object-fit: contain;
     display: flex;
     justify-content: space-evenly;
@@ -247,6 +248,7 @@ ul li {
     
 }
 .hh4{
+    margin-top: 0;
     height: 108px;
     background-color: #182153;
     display: flex;
@@ -364,4 +366,14 @@ footer{
     
    
 
+}
+#resume{
+    margin-top: 1rem;
+    border-radius: 18px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #19214f;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    cursor: pointer;
 }
