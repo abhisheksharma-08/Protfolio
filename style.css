@@ -1,0 +1,367 @@
+*{
+    padding: 0;margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
+
+color: #182153
+}
+
+.navbar{
+    height: 101px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.logo{
+    width: 40vw;
+    display: flex;
+   align-content: flex-start;
+   margin-left: 2.8rem;
+}
+.logo img {
+   margin: 0;
+    width: 145px;
+    height: 48px;
+}
+.nav-items ul {
+    display: flex;
+   
+   
+
+}
+.nav-items ul li {
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9px;
+}
+.poster{
+    height: 647px;
+  
+    background-image: url(images/poster.jpg);
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile img {
+    height: 470px;
+    width: 470px;
+    object-fit: cover;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.name{
+    height: 470px;
+    width: 470px;
+    text-align: center;
+    
+    align-items: center;
+    background-color: white;
+    text-align: center left;
+    overflow: hidden;
+    
+
+}
+.poster2{
+    padding: 2rem;
+    margin-top: 4rem;
+    text-align: left;
+    line-height: 1.8rem;
+   
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.social{
+    height: 75px;
+    width: 940px;
+    background-color: #182153;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+}
+.about {
+    align-items: center;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+}
+.icon{
+    
+    height: 24px;
+    width: 200px;
+    overflow: hidden;
+}
+.icon i {
+    height: 24px;
+    width: 24px;
+    margin-right: 1rem;
+  
+}
+.main{
+    height: 512px;
+    width: 1264px;
+    text-align: center;
+}
+.about .h1{
+    margin-top: 120px;
+}
+.about .h2{
+    margin-top: 24px;
+}
+.about .h3{
+    margin-top: 10px;
+}
+.about .p{
+   height: 97px;
+   width: 510px;
+   margin: auto;
+   margin-top: 30px;
+   
+}
+
+.hh3{
+    height: 108px;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #182153  ;
+}
+
+
+.aboutproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    text-align: right;
+    
+}
+.areas{
+   width: 80 vw;
+   display: inline-flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  
+    align-content: space-evenly;
+  
+}
+.areas img {
+    height: 7rem;
+    width: 7rem;
+    align-content: space-evenly;
+    margin-top: 5rem;
+    margin-left: 3rem;
+  
+    
+
+}
+.aboutproject img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+   
+}
+.aboutproject h3{
+    width: 30vw;
+    padding: 3rem;
+    text-align: left;
+}
+.graduation .edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.graduation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80vw;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.graduation .edu .b{
+    margin-left: 8rem;
+    text-align: left;
+}
+.graduation .edu .a{
+    margin-left: 8rem;
+    text-align: left;
+}
+.graduation .edu .c{
+    margin-left: 12.5rem;
+    text-align: left;
+}
+.graduation .edu .d{
+    margin-left: 11rem;
+    text-align: left;
+}
+.aboutskills{
+    background-image: url(images/macbook-pro-2021-14.webp);
+    background-attachment: fixed;
+   object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutskills ul  li{
+    height: 77px;
+    width: 415px;
+    background-color: rgba(240, 255, 255, 0.29);
+    
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(6, 18, 28);
+    
+    align-items: center;
+    
+}
+.hh4{
+    height: 108px;
+    background-color: #182153;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+  
+
+}
+.aboutexperties{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem 3rem 1rem;
+}
+.aboutexperties .x{
+    word-wrap: normal;
+    margin: 2rem;
+    
+}
+.aboutexperties .x h4{
+    line-height: 4.5rem;
+}
+.aboutcontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 428px;
+    width: 580px;
+   
+    
+    
+    
+}
+.ctname{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fname{
+    width:10rem;
+}
+.contact span{
+    margin: 0.8rem;
+    color: #182153;
+}
+.email{
+    width: 30rem;
+}
+.text{
+    width: 33rem;
+    height: 10rem;
+     border-radius: 1px;
+    border: 1px solid #182153;
+}
+.box{
+    height: 2rem;
+    border-radius: 1px;
+    border: 1px solid #182153;
+}
+footer{
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(175, 209, 239, 0.573);
+    padding: 2px;
+    font-size: small;
+}
+.contact button{
+    width: 33rem;
+    height: 2.8rem;
+    background-color: #182153;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+
+}
+.name button{
+    margin-top: 1rem;
+    border-radius: 18px;
+    width: 8rem;
+    height: 2.8rem;
+    background-color: #182153;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+}
+.idm{
+    margin-top: 1rem;
+    border-top: 1px solid rgba(36, 36, 36, 0.742);
+}
+
+.idm img{
+    display: inline-block;
+    align-content: center;
+    
+    justify-content: center;
+    border-radius: 25px;
+    height: 24px;
+    width: 24px;
+    border-radius: 6px;
+    margin-left: 0.6rem;
+    margin-top: 2rem;
+    
+   
+
+}
