@@ -46,9 +46,9 @@ color: #182153
 .poster{
     height: 647px;
   
-    background-image: url(images/poster.jpg);
+    background-image: url(images/boss-fight-free-high-quality-stock-images-photos-photography-macbook-pro-code.webp);
     background-attachment: fixed;
-    object-fit: cover;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,9 +226,9 @@ ul li {
     text-align: left;
 }
 .aboutskills{
-    background-image: url(images/macbook-pro-2021-14.webp);
+    background-image: url(images/glare-iphone-macbook-code_preview_6a3d.jpg);
     background-attachment: fixed;
-   object-fit: cover;
+    object-fit: contain;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
