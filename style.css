@@ -10,10 +10,12 @@ color: #182153
 .navbar{
     height: 101px;
     
+ 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
 
     
 }
@@ -27,6 +29,7 @@ color: #182153
    margin: 0;
     width: 145px;
     height: 48px;
+    
 }
 .nav-items ul {
     display: flex;
@@ -45,7 +48,7 @@ color: #182153
 }
 .poster{
     height: 647px;
-  
+    
     background-image: url(images/boss-fight-free-high-quality-stock-images-photos-photography-macbook-pro-code.webp);
     background-attachment: fixed;
     
@@ -376,4 +379,13 @@ footer{
     color: aliceblue;
     border: 1px solid aliceblue;
     cursor: pointer;
+}
+.active,.hov:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+    box-shadow: #182153 ;
+    cursor: pointer;
+}
+.nav-items ul a {
+    text-decoration: none;
 }

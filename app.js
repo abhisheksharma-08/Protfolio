@@ -1,9 +1,15 @@
-let num=[1,2,3,4];
-let ans= num.reduce((el,al)=>{
-    console.log(el+al);
-    return 0  ;
+let sections=document.querySelectorAll(".section");
+let navlinks=document.querySelector(".anc");
 
-})
-
-let a=[...num];
-console.log(a);
+window.onscroll = () => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop;
+    let height=sec.offsetHeight;
+    let id=sec.getAttribute('id');
+if(top >= offset && top < offset+height){
+        navelinks.forEach(links => {
+            links.classList.remove('active');
+            document.querySelector('.anc [href*=' + + ']')
+        });
+    }
+}
